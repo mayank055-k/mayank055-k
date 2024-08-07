@@ -1,6 +1,7 @@
+![logo](https://github.com/mayank055-k/mayank055-k/blob/main/banner.png)
 
     class AboutMe:   
-    def _init_(self):
+       def _init_(self):
         self.pronouns = ["he", "him"]
         self.code = ["C", "C++", "Python", "Java", "HTML", "CSS"]
         self.front_end = ["Flutter"]
