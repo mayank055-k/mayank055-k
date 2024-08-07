@@ -1,3 +1,31 @@
+    class AboutMe:
+        
+    def _init_(self):
+        self.pronouns = ["he", "him"]
+        self.code = ["C", "C++", "Python", "Java", "HTML", "CSS"]
+        self.front_end = ["Flutter"]
+        self.back_end = ["Firestore", "Firebase"]
+        self.mobile = ["Android"]
+        self.current_occupation = ["3RD year student", "open for part-time job opportunities [remote]"]
+        self.on_going_projects = ["PixelOS-AOSP", "Pixel Experience-AOSP"]
+        self.challenge = "working on myself to become better everyday"
+        
+    def display_info(self):
+        print(f"Pronouns: {', '.join(self.pronouns)}")
+        print(f"Code: {', '.join(self.code)}")
+        print("Technologies:")
+        print(f"   FrontEnd: {', '.join(self.front_end)}")
+        print(f"   BackEnd: {', '.join(self.back_end)}")
+        print(f"   Mobile: {', '.join(self.mobile)}")
+        print(f"Current Occupation: {', '.join(self.current_occupation)}")
+        print(f"On Going Projects: {', '.join(self.on_going_projects)}")
+        print(f"Challenge: {self.challenge}")
+     about_me = AboutMe()
+     about_me.display_info()
+    
+
+   
+
 <h1 align="center">Hi 👋, I'm Mayank</h1>
 <h3 align="center">A passionate frontend and Software Engineer developer from India</h3>
 <img align="right" alt= "coding"width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
